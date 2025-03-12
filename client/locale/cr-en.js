@@ -5,41 +5,6 @@
    const _LocaleId = 'en';
    const _Language = 'en';
 
-   /* followng not needed for english if not overriding specific library valies
-   const _extend = function() {
-       if (global.ng?.common?.locales) {
-           global.ng.common.locales[_LocaleId].forEach(n => {
-               if (n){
-                   // find it by checking that is an object and not an array
-                   if (typeof n === 'object' && !Array.isArray(n)){
-                       n['WLG'] = ['₩'];
-                   }
-
-               }
-           });
-
-       }
-   };
-   if (window != null) {
-       // in browser platform
-       const script = document.createElement('script');
-       script.type = 'text/javascript';
-       script.defer = true;
-       script.src = `locale/${_LocaleId}.js`;
-       script.onload = function () {
-           // on load, add a missing curreny symbol
-           _extend();
-
-       }
-       document.head.appendChild(script);
-
-   } else {
-       // in server platform
-       require(`./${_LocaleId}.js`);
-       _extend();
-
-   }
-   */
 
    const keys = {
       NoRes: '',
