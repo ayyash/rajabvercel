@@ -39,6 +39,7 @@
       TIMEAGO: '$0 ago',
       INTIME: 'in $0',
       Results: { 0: 'no results', 1: 'one result', 2: 'two results', 3: '$0 results' },
+      MONTH_NAMES: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
       SEO_CONTENT: {
          HOME_TITLE: 'Home',
          HOME: 'Home'
