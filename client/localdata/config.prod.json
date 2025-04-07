@@ -1,0 +1,21 @@
+{
+
+    "API": {
+        "apiRoot": "https://rajab.onrender.com/api"
+    },
+    "Auth": {
+        "userAccessKey": "rajab.user"
+    },
+    "Cache": {
+        "Timeout": 1,
+        "Key": "rajab.cache",
+        "ResetKey": "rajab.20250301"
+    },
+    "Seo": {
+        "gaEnabled": false
+    },
+    "upload": {
+      "slug": "rajab"
+    },
+    "isServed": true
+}
